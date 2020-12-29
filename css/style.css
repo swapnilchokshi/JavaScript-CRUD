@@ -1,0 +1,140 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background: #ffffff;
+    font-style: normal;
+    padding-bottom: : 30px;
+    padding-top: 30px;
+}
+
+h1{
+    font-weight: bold;
+    word-spacing: 8px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input[type=date]{
+    font-size: 15px;
+    padding: 6px;
+}
+
+select{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.title{
+    padding-top: 50px;
+    display: block;
+    font-family: Poppins;
+    font-size: 40px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.wrap-form{
+    width: 700px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.input-form{
+    width: 500px;
+}
+
+.studentlist{
+    width: 700px;
+}
+
+table.ip td, th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+table.ip tr {
+    border: 1px dashed black; 
+}
+
+th{
+    background-color: #ff4411;
+    color: white;
+}
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+table.ip td{
+    padding-left: 10px;
+}
+
+input[type=text], input[type=number] {
+    font-size: 19px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hide{
+    display:none;
+}
+
+input[input = placeholder]{
+    font-size: 12px;
+    color: grey;
+}
+
+button{
+    width: 140px; 
+    height: 45px;
+    font-size: 22px;
+    font-family: Poppins;
+    background-color: grey;
+    color: white;
+    border: none;
+}

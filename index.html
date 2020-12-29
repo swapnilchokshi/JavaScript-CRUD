@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CRUD Web Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+	
+</head>
+<body style="background-image: url('images/backdrop.jpg');background-position: center;background-repeat: no-repeat; background-size: cover;">
+	<center>
+	<div class="wrap-form">
+	<div>
+		<h1 class="title" align="center">XYZ  School</h1>
+	</div>
+
+	<br>
+	<div>
+	<table >
+		<tr>		
+			<td> <!-- CRUD OPERATIONS-->
+				<form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off" class="input-form" name="StudentForm">
+					<div>
+						<label>Roll Number </label><label class="validation-error hide" id="RollValidationError">*Input exact 6 - digits number.</label>
+						<input type="text" name="roll" id="roll" name="roll" >
+					</div>
+					<br>
+					<div>
+						<label>Name </label><label class="validation-error hide" id="NameValidationError">*Input only Alphabets.</label>
+						<input type="text" name="name" id="name" name="name" >
+					</div>
+					<br>
+					<div>
+						<label>Gender</label><br>
+						<select id="gender" name="gender" >
+							<option>Male</option>
+							<option>Female</option>
+							<option>Other</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<label>Standard </label><label class="validation-error hide" id="StandardValidationError">*Input only Roman Numerals.</label>
+						<input type="text" name="standard" id="std" name="std" >
+					</div>
+					<br>
+					<div>
+						<label>Date of Birth</label><br>
+						<input type="date" name="dob" id="dob" name="dob">
+					</div>
+					<br>
+					<br>
+					<center>
+						<button>
+								Submit
+						</button>
+					</center>
+										
+				</form>
+			</td> 
+		</tr>
+	</table>
+</div>
+</div>
+<br>
+
+<div style="background-color: black;">
+	<br>
+	<br>
+</div>
+
+	<div id="ip" style="background-color: #f0f0f0;">
+	<div>
+		<h1 class="title" align="center">Table Of Records</h1>
+	</div>
+	<table>
+		<tr>
+			<td> <!-- TABLE OF RECORDS-->
+				<table class="list" id="studentlist" style="border: 1px dashed black;width: 900px;">
+					<thead>
+						<tr>
+							<th style="width: 150px">Roll Number</th>
+							<th style="width: 250px;">Name</th>
+							<th style="width: 120px">Gender</th>
+							<th style="width: 100px">Standard</th>
+							<th style="width: 160px">Date of Birth</th>
+							<th style="width: 120px">Operation</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</center>
+<div style="background-color: #f0f0f0;">	
+	<br>
+	<br>
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
