@@ -8,8 +8,11 @@ This repository contains 4 sub-folders named :-
 
 
 Image folder contains a background image of the Web Page.
+
 Css folder contains "style.css" file, which contains the css code for styling and improve presentation & content.
+
 Js folder contains "script.js" file, which contains the javascript code for Validation and Content display in table.
+
 "index.html" is the main file containing the HTML code, which is responsible for content we view on the web page.
 
 As you open index.html file in any web browser, you will first see the form at the centre with labels and inputs. Below the form, a table is situated which displays the form records, written by the user and submitted without any validation error.
